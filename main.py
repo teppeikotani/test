@@ -1,4 +1,6 @@
 import argparse
+from compute import myadd
+
 
 def main():
     parser = argparse.ArgumentParser(description='add or multiply two numbers')
