@@ -13,9 +13,9 @@ def myadd(a, b):
         return a
 
     if a > 0 and b < 0:
-        if a > b:
+        if abs(a) > abs(b):
             return a + b
-        if a < b:
+        if abs(a) < abs(b):
             return a + b
 
     return 0
