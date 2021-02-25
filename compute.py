@@ -19,3 +19,7 @@ def myadd(a, b):
             return a + b
 
     return 0
+
+
+def mymult(a, b):
+    return -100
