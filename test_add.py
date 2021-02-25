@@ -24,6 +24,13 @@ class TestMyAdd(unittest.TestCase):
         val = myadd(2, 0)
         self.assertTrue(2, val)
 
+    def test_add_pn_a_gt_b(self):
+        val = myadd(4, -1)
+        self.assertTrue(val > 0)
+
+    def test_add_pn_a_lt_b(self):
+        val = myadd(-1, 4)
+        self.assertTrue(val < 0)
 
 
 if __name__ == "__main__":
