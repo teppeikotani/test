@@ -29,7 +29,7 @@ class TestMyAdd(unittest.TestCase):
         self.assertTrue(val > 0)
 
     def test_add_pn_a_lt_b(self):
-        val = myadd(-1, 4)
+        val = myadd(1, -4)
         self.assertTrue(val < 0)
 
 
