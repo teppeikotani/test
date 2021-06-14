@@ -6,3 +6,4 @@ services:
     volumes:
       - ../:/mnt
     tty: true
+    working_dir: /mnt/09_01_add_mult
