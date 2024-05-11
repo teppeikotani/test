@@ -1,5 +1,6 @@
 {
     "recommendations": [
+        "ryanluker.vscode-coverage-gutters",
         "mhutchie.git-graph",
         "ms-ceintl.vscode-language-pack-ja",
         "ms-python.python",
